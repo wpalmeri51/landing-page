@@ -67,7 +67,7 @@ a,
 }
 
 img {
-    max-height: 250px;
+    max-height: 300px;
 }
 
 .header-left {
@@ -90,6 +90,7 @@ img {
     justify-content: center;
     gap: 48px;
     flex: 0;
+    flex-wrap: wrap;
 }
 
 .box {
