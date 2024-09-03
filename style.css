@@ -48,7 +48,7 @@ a,
     padding: 100px;
     margin: 0px 100px;
     justify-content: space-between;
-    gap: 16px;
+    gap: 24px;
 }
 
 .header-title {
@@ -108,7 +108,7 @@ img {
 
 .section-two {
     margin: 32px 100px;
-    padding: 0px 100px;
+    padding: 0px 100px 50px 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -134,4 +134,47 @@ span {
     font-weight: 900;
     text-align: end;
     margin: 16px 32px 0px 32px;
+}
+
+.section-four {
+    padding: 70px 200px;
+    display: flex;
+    flex: 1;
+}
+
+.action-block {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    padding: 24px 70px;
+    flex: 1;
+    gap: 16px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-header {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.action-subtext {
+    color: #E5E7EB;
+}
+
+.action-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 4px 32px;
+    margin: 16px 0px;
+    display: flex;
+    flex-shrink: 0;
 }
